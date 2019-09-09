@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
 </head>
@@ -62,9 +64,13 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme" data-slider-id="1">
-                        <div><img src="images/restaurant-thumbnail.jpg" alt="thumb"></div>
-                        <div><img src="images/restaurant-thumbnail.jpg" alt="thumb"></div>
-                        <div><img src="images/restaurant-thumbnail.jpg" alt="thumb"></div>
+                        <div><a href="http://www.youtube.com/watch?v=YoxHEBeF6s0" data-width="768" data-toggle="lightbox" data-gallery="youtubevideos"><img src="images/restaurants/1.jpg" alt="thumb"></a></div>
+                        <div><a href="http://www.youtube.com/watch?v=YoxHEBeF6s0" data-width="768" data-toggle="lightbox" data-gallery="youtubevideos"><img src="images/restaurants/2.jpg" alt="thumb"></a></div>
+                        <div><a href="http://www.youtube.com/watch?v=YoxHEBeF6s0" data-width="768" data-toggle="lightbox" data-gallery="youtubevideos"><img src="images/restaurants/3.jpg" alt="thumb"></a></div>
+                        <div><a href="http://www.youtube.com/watch?v=YoxHEBeF6s0" data-width="768" data-toggle="lightbox" data-gallery="youtubevideos"><img src="images/restaurants/4.jpg" alt="thumb"></a></div>
+                        <div><a href="http://www.youtube.com/watch?v=YoxHEBeF6s0" data-width="768" data-toggle="lightbox" data-gallery="youtubevideos"><img src="images/restaurants/5.jpg" alt="thumb"></a></div>
+                        <div><a href="http://www.youtube.com/watch?v=YoxHEBeF6s0" data-width="768" data-toggle="lightbox" data-gallery="youtubevideos"><img src="images/restaurants/6.jpg" alt="thumb"></a></div>
+                        <div><a href="http://www.youtube.com/watch?v=YoxHEBeF6s0" data-width="768" data-toggle="lightbox" data-gallery="youtubevideos"><img src="images/restaurants/7.jpg" alt="thumb"></a></div>
                     </div>
                 </div>
             </div>
@@ -152,6 +158,17 @@
                         items: 3
                     }
                 }
+            });
+        });
+    </script>
+    <script>   
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox({
+                    // alwaysShowClose: true,
+                showArrows: true,
+                leftArrow: '<',
+                rightArrow: '>'
             });
         });
     </script>
