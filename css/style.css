@@ -84,6 +84,8 @@ p.maintainedBy { margin: 60px 0; }
     -o-transform: scale(1);
     -webkit-transform: scale(1);
   }
+
+  .info-text.gallery-section { padding-right: 17%; }
 }
 
 @media only screen and (min-width: 768px) {
@@ -113,7 +115,7 @@ p.maintainedBy { margin: 60px 0; }
   .footer-section { padding: 40px 0 10px 0; }
   .type-infoTxt p { font-size: 24px; }
   .owl-carousel .item-video { height: 322px; }
-  .info-text.gallery-section { padding-right: 8%; }
+  .info-text.gallery-section { padding-right: 17%; }
 }
 
 @media only screen and (max-width: 1366px) {
@@ -134,7 +136,7 @@ p.maintainedBy { margin: 60px 0; }
   .owl-carousel .item-video { height: 256px; }
   .facilities-section { margin: 90px 0; }
   .factilty-info p { font-size: 20px; }
-  .info-text.gallery-section { padding-right: 8%; }
+  .info-text.gallery-section { padding-right: 17%; }
 }
 
 @media only screen and (max-width: 992px) {

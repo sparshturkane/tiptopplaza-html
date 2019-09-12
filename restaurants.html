@@ -15,7 +15,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script>!function(e,t,a){var c=e.head||e.getElementsByTagName("head")[0],n=e.createElement("script");n.async=!0,n.defer=!0, n.type="text/javascript",n.src=t+"/static/js/chat_widget.js?config="+JSON.stringify(a),c.appendChild(n)}(document,"https://app.engati.com",{bot_key:"58f1dc23f85540f1",welcome_msg:true,branding_key:"default",server:"https://app.engati.com",e:"p" });</script>
 </head>
 <body>
     <div class="navigation-bar-top">
@@ -45,7 +44,7 @@
             <div class="row">
                 <div class="col-md-6 col-lg-8">
                     <div class="info-text gallery-section">
-                        <h1 style="color: #c2aa73;">Video Gallery</h1>
+                        <h1 style="color: #c2aa73;">Gallery</h1>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -139,6 +138,9 @@
     <script>
         $(document).ready(function(){
             $(".owl-carousel").owlCarousel({
+                autoplay:true,
+                autoplayTimeout:5000,
+                autoplayHoverPause:true,
                 thumbs: true,
                 loop:true,
                 margin: 40,
