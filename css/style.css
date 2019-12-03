@@ -32,6 +32,7 @@ a:hover { text-decoration: none; }
 .explore-section { margin-top: 50px; position: relative; }
 .section-title { font-size: 50px; color: #c2aa73; }
 .explore-title{color: #c2aa73;}
+.explore-read-more{color: #c2aa73;}
 .section-title span { position: relative; display: inline-block; }
 .explore-options .row { align-items: center; }
 .explore-box { padding: 100px 0; }
