@@ -69,8 +69,8 @@ p.maintainedBy { margin: 60px 0; }
 .modal-content { background-color: #68686833; }
 .modal-body { padding: 8px; }
 .img-wrapper video { max-width: 1880px; width: 100%; }
-.facilities-left {padding-left: 16px;color:#c2aa73;}
-.facilities-right {padding-right: 16px;color: #c2aa73;direction: rtl;}
+.facilities-left {padding-left: 16px;color:#c2aa73;line-height: 33px;}
+.facilities-right {padding-right: 16px;color: #c2aa73;direction: rtl;line-height: 33px;}
 
 /* Media Query */
 @media only screen and (min-width: 1199px) {
