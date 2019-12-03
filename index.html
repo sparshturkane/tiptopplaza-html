@@ -68,7 +68,7 @@
                     <div class="img-wrapper">
                         <!-- <img src="images/videoBg.jpg" alt="video" class="img-fluid"> -->
                         <!-- videos/homeVideo.mp4 -->
-                        <video id="myVideo" src="" poster="images/videoBg.jpg" autoplay loop
+                        <video id="myVideo" src="videos/homeVideo.mp4" poster="images/home/bg1.png" autoplay loop
                             type="video/mp4"></video>
                         <!-- <i class="fa fa-play-circle-o" aria-hidden="true"></i> -->
                     </div>
@@ -183,18 +183,18 @@
     <div class="background-patch"></div>
     <script>
 
-        // var myVideo = document.getElementById('myVideo');
+        var myVideo = document.getElementById('myVideo');
 
-        // VisSense.VisMon.Builder(VisSense(myVideo, { fullyvisible: 0.75 }))
-        //     .on('fullyvisible', function (monitor) {
-        //         myVideo.play();
-        //     })
-        //     .on('hidden', function (monitor) {
-        //         myVideo.pause();
+        VisSense.VisMon.Builder(VisSense(myVideo, { fullyvisible: 0.75 }))
+            .on('fullyvisible', function (monitor) {
+                myVideo.play();
+            })
+            .on('hidden', function (monitor) {
+                myVideo.pause();
 
-        //     })
-        //     .build()
-        //     .start();
+            })
+            .build()
+            .start();
 
     </script>
 </body>
