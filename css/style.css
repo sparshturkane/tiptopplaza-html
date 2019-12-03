@@ -30,7 +30,7 @@ a:hover { text-decoration: none; }
 .img-wrapper { position: relative; }
 .img-wrapper i { position: absolute; color: #fff; top: 45%; font-size: 120px; font-weight: 300; left: 48%; }
 .explore-section { margin-top: 50px; position: relative; }
-.section-title { font-size: 50px; color: #532d1a; }
+.section-title { font-size: 50px; color: #c2aa73; }
 .section-title span { position: relative; display: inline-block; }
 .explore-options .row { align-items: center; }
 .explore-box { padding: 100px 0; }
